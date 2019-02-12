@@ -23,6 +23,7 @@ header {
 nav span {
     display: inline-block;
     margin-top: 12px;
+    text-decoration: underline;
 }
 header nav {
     margin-left: 780px;
