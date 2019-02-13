@@ -78,6 +78,19 @@ nav span a {
     text-align: center;
 }
 
+/* Locations */
+.loc-container {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    height: 550px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+
 
 
   
