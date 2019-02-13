@@ -5,7 +5,9 @@ body {
     color: seashell;
     background-color: black;
     opacity: 0.9;
-    text-align: center;
+    align-items: center;
+    margin: auto;
+    
     
 }
 
@@ -21,12 +23,12 @@ header {
 
 }
 .logo img {
-    margin-left: 10px;
-    margin-top: 10px;
+    margin: 10px;
     height: 50px;
 }
 header nav {
-    margin-left: 730px;
+    text-align: right;
+    flex-grow: 1;
 }
 nav span a {
     display: inline-block;
@@ -47,13 +49,34 @@ nav span a {
     margin-right: 50px;
 }
 .image-text {
-    position: relative;
     justify-content: center;
     margin-top: 300px;
     background-color: black;
     width: 1200px;
+    text-align: center;
+    
 }
 
+/* Featured Tea */
+.tea-headline {
+    text-align: center;
+    margin-top: 50px;
+}
+.prod-container {
+  width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.product img {
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+}
+.product span {
+    text-align: center;
+}
 
 
 
