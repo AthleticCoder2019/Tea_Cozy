@@ -5,6 +5,7 @@ body {
     color: seashell;
     background-color: black;
     opacity: 0.9;
+    text-align: center;
     
 }
 
@@ -36,6 +37,23 @@ nav span a {
 }
 
 /* Mission */
+.mission {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+    display: flex;
+    margin-top: 70px;
+    height: 700px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.image-text {
+    position: relative;
+    justify-content: center;
+    margin-top: 300px;
+    background-color: black;
+    width: 1200px;
+}
+
+
 
 
   
