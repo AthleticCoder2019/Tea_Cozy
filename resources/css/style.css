@@ -74,7 +74,7 @@ nav span a {
     width: 300px;
     padding: 10px;
 }
-.product span {
+.product p {
     text-align: center;
 }
 
@@ -93,8 +93,6 @@ nav span a {
 .address {
     display: flex;
     flex-direction: inline;
-    align-content: center;
-    justify-content: center;
     text-align: center;
 }
 .address-content {
@@ -106,6 +104,20 @@ nav span a {
     opacity: 1;
 }
 
+/* Contact */
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+}
+
+/* Footer */
+.copyright {
+    text-align: left;
+    margin-left: 20px;
+}
 
 
 
