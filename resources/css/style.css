@@ -81,14 +81,31 @@ nav span a {
 /* Locations */
 .loc-container {
     background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
-    display: flex;
-    flex-direction: column;
     margin-top: 70px;
-    height: 550px;
+    height: 500px;
     margin-left: 50px;
     margin-right: 50px;
-
+    padding: 50px;
 }
+.loc-containter,h2 {
+    text-align: center;
+}
+.address {
+    display: flex;
+    flex-direction: inline;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+.address-content {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    margin: auto;
+    width: 300px;
+    opacity: 1;
+}
+
 
 
 
